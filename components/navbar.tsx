@@ -44,8 +44,10 @@ export default function Navbar() {
         <nav className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
           {/* Brand */}
           <Link href="/" className="font-semibold tracking-tight">
-            <span className="text-black">Iván Lastra</span>
-            <span className="text-white/700">.dev</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-cyan-400">
+                Iván Santiago Lastra
+                </span>
+            <span className="text-blue-400">.dev</span>
           </Link>
 
           {/* Desktop */}
